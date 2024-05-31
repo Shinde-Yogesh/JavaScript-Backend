@@ -3,6 +3,8 @@ import express from "express";
 const app = express();
 const port = 3000;
 
+// express library install for the API call
+
 app.get("/", (req, res) => {
   const data = {
     title: "EJS Tags",
