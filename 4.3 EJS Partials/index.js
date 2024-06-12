@@ -1,8 +1,5 @@
 import express from "express";
-
-const app = express();
 const port = 3000;
-
 /* Write your code here:
 Step 1: Render the home page "/" index.ejs
 Step 2: Make sure that static files are linked to and the CSS shows up.
