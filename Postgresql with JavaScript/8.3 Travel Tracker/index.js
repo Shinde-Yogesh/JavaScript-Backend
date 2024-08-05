@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 
-const app = express();
+const app = express(); // Importing the express library to communicate the rest end point
 const port = 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
