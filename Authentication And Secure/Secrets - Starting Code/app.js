@@ -5,6 +5,7 @@ const ejs = require("ejs");
 
 const app = express();
 
+//Express Library is used to communicate to the end point
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(
