@@ -18,7 +18,6 @@ const fs = require("fs");
   console.log(data);
 });*/
 
-
 fs.readFile("./message.txt","utf8",(er, data) => {
   if (er) throw er;
   console.log(data);
